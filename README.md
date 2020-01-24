@@ -35,6 +35,8 @@ you can do so by executing the following command:
 $ ./bin/cqlsh -f schema.sql
 ```
 
+Note: You can find the schema file in following [project directory](src/main/resources/ycql/schema.cql)
+
 # Build and Run the application
 
 ## Step 1: Build the spring boot application
