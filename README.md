@@ -1,6 +1,6 @@
-# Spring Boot Reactive Client for YugabyteDB Cluster Query Language (YCQL)
+# Spring Boot Reactive Client for YugabyteDB Cloud Query Language (YCQL)
 
-This app is a fully reactive Spring Boot implementation backed by YugabyteDB Cluster Query Language (YCQL). YugabyteDB natively supports reactive programming model using Apache Cassandra Reactive driver.
+This app is a fully reactive Spring Boot implementation backed by YugabyteDB Cloud Query Language (YCQL). YugabyteDB natively supports reactive programming model using Apache Cassandra Reactive driver.
 
 `spring-reactive-ycql-client` app uses the following components:
 
