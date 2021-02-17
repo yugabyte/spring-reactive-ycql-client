@@ -62,7 +62,7 @@ $ java -jar target/spring-reactive-ycql-client-0.0.1-SNAPSHOT.jar
 You can create a product listing as follows:
 ```
 $ curl \
-  --data '{ "productName": "Notebook", "description": "200 page notebook", "price": 7.50 }' \
+  --data '{ "productId": 1, "productName": "Notebook", "description": "200 page notebook", "price": 7.50 }' \
   -v -X POST -H 'Content-Type:application/json' http://localhost:8080/products/save
 ```
 
@@ -83,7 +83,7 @@ cqlsh> select * from sample.products;
 
  productid | productname | description       | price
 -----------+-------------+-------------------+-------
-      abc1 |    Notebook | 200 page notebook |   7.5
+      1    |    Notebook | 200 page notebook |   7.5
 ```
 
 ## Step 2: Retrieve the product using ID
